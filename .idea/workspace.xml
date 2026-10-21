@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d8deeec-981a-4734-b1ef-02fb3b08542f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/banking-account/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-account/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-account/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-account/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-account/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/banking-account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-account" beforeDir="false" afterPath="$PROJECT_DIR$/banking-account" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,23 +12,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/banking-account" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3KyKSSkXLFUjMSAXRem0A78D7qz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/backing-account"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/backing-account&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9d8deeec-981a-4734-b1ef-02fb3b08542f" name="Changes" comment="" />
