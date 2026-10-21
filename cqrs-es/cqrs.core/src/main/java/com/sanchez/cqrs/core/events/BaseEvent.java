@@ -12,6 +12,10 @@ public abstract class BaseEvent extends Message {
         return version;
     }
 
+    public void setVersion(int version) {
+        this.version = version;
+    }
+
     public abstract static class Builder<T extends BaseEvent, B extends Builder<T, B>>
             extends Message.Builder<T, B> {
 
@@ -23,6 +27,7 @@ public abstract class BaseEvent extends Message {
             ((BaseEvent) message).version = version;
             return self();
         }
+
     }
 
 
