@@ -7,5 +7,5 @@ import java.util.List;
 public interface EventStore {
 
     void saveEvents(String aggregateId, Iterable<BaseEvent> baseEventIterable, int expectedVersion);
-    List<BaseEvent> getEvents(String aggregateId);
+    List<BaseEvent> getEvent(String aggregateId);
 }
