@@ -4,25 +4,28 @@ public abstract class Message {
 
     private String id;
 
-    public Message() {
-    }
-
-    public Message(String id) {
-        this.id = id;
-    }
-
     public String getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public abstract static class Builder<T extends Message, B extends Builder<T, B>> {
+
+        protected final T message;
+
+        protected Builder(T message) {
+            this.message = message;
+        }
+
+        protected abstract B self();
+
+        public B id(String id) {
+            ((Message) message).id = id;
+            return self();
+        }
+
+        public T build() {
+            return message;
+        }
     }
 
-    @Override
-    public String toString() {
-        return new org.apache.commons.lang3.builder.ToStringBuilder(this)
-                .append("id", id)
-                .toString();
-    }
 }
