@@ -8,6 +8,14 @@ public abstract class BaseEvent extends Message {
 
     private int version;
 
+    protected BaseEvent() {
+        super();
+    }
+
+    protected BaseEvent(String id) {
+        super(id);
+    }
+
     public int getVersion() {
         return version;
     }
@@ -24,10 +32,9 @@ public abstract class BaseEvent extends Message {
         }
 
         public B version(int version) {
-            ((BaseEvent) message).version = version;
+            message.setVersion(version);
             return self();
         }
-
     }
 
 
