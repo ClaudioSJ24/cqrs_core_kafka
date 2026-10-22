@@ -8,5 +8,5 @@ import java.util.List;
 public interface QueryDispatcher {
 
     <T extends BaseQuery> void registerHandler(Class<T> type, QueryHandlerMethod<T> handler);
-    <U extends BaseQuery>List<U> send(BaseQuery baseQuery);
+    <U>List<U> send(BaseQuery baseQuery);
 }
